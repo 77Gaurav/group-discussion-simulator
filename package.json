@@ -1,0 +1,23 @@
+{
+  "name": "ai-gd-platform",
+  "version": "1.0.0",
+  "description": "High-fidelity AI Group Discussion Simulator for Engineering Placements",
+  "type": "module",
+  "scripts": {
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev": "npm run start:all",
+    "start:all": "node start.js",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": [
+    "group-discussion",
+    "engineering-prep",
+    "groq",
+    "whisper",
+    "elevenlabs",
+    "ai-agents"
+  ],
+  "author": "",
+  "license": "ISC"
+}
